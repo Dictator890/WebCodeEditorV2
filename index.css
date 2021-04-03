@@ -1,0 +1,358 @@
+:root {
+  --primary-color: #00c9ff;
+  --red-color: #fb262c;
+  --red-dark-color: #fb262c;
+  --green-color: #15ff33;
+  --white-color: #eaeaea;
+  --background-color: #121212;
+  --secondary-background: #161616;
+  --shadow-color: #212121;
+
+  --primary-tab-selected-color: #13bdec;
+  --editor-background-color: #141414;
+  --primary-font: 18px;
+  --secondary-font: 14px;
+  --tertiary-font: 12px;
+
+  outline: none;
+}
+body {
+  background-color: var(--background-color);
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+
+  font-size: var(--primary-font);
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-content-area-sizing {
+  height: 91vh;
+  width: 100%;
+}
+
+.container-top-bar-sizing {
+  height: 7vh;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 1vh;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.menu-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.work-area {
+  background-color: var(--editor-background-color);
+  user-select: none;
+}
+.output-screen {
+  background-color: var(--white-color);
+  width: 100%;
+  height: 100%;
+}
+
+.editor {
+  width: 100%;
+  height: 100%;
+}
+
+.htmldiv {
+  display: block;
+}
+.cssdiv {
+  display: none;
+}
+
+.jsdiv {
+  display: none;
+}
+
+.display-primary-border {
+  border-bottom-color: var(--primary-color) !important;
+}
+
+.ColorPalette {
+  background-color: #ffffff;
+  height: 10vh;
+  align-items: center;
+}
+.div-border {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #121212;
+}
+.SliderBar {
+  font-size: var(--secondary-font);
+  height: 100vh;
+  width: 0;
+  z-index: 9999;
+  background-color: var(--background-color);
+  display: block;
+  top: 0;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  overflow-y: auto;
+  user-select: none;
+}
+.Slider-card {
+  box-sizing: border-box;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin: 5%;
+  background-color: var(--editor-background-color);
+  width: 90%;
+
+  border-radius: 5px;
+  display: flex;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 1px 1px var(--secondary-background);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Slider-card:hover {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  box-shadow: 3px 3px #000000;
+}
+.Slider-card-text {
+  margin-left: 10%;
+}
+.Slider-card-text-url {
+  margin-left: 10%;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.Slider-help-btn:hover {
+  background-color: var(--red-color);
+}
+.Slider-addbtn {
+  font-size: var(--primary-font);
+  margin-right: 2%;
+}
+.Slider-addbtn:hover {
+  cursor: pointer;
+}
+
+.Slider-close {
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 5px;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.Slider-close:hover {
+  cursor: pointer;
+}
+.ItemsContainer {
+  height: 70vh;
+  width: 80%;
+  border-style: solid;
+  border-color: var(--primary-color);
+  border-width: 1px;
+  border-radius: 5px;
+  margin-left: 10%;
+  overflow-y: scroll;
+  display: none;
+}
+.itemshow {
+  display: block;
+}
+
+.SliderItem {
+  margin-left: 5%;
+}
+.showdisplay {
+  width: 25vw !important;
+}
+.hidedisplay {
+  width: 0vw;
+}
+
+.containercards:hover {
+  cursor: pointer;
+}
+
+/**Button ends*/
+
+.container-top-bar {
+  color: var(--white-color);
+  margin-top: 1vh;
+  align-items: center;
+  outline: none;
+}
+
+.container-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.container-flex-row-fixed {
+  display: flex;
+  flex-direction: row;
+}
+.container-width-50 {
+  width: 50%;
+  height: 100%;
+}
+
+.editor-menu-bar {
+  height: 8%;
+  background-color: var(--secondary-background);
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1vh;
+  outline: none;
+}
+.work-area {
+  overflow: auto;
+  outline: none;
+  height: 100%;
+}
+
+.tab {
+  margin: 0px;
+  border: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: var(--background-color);
+  height: 100%;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 80px;
+  color: var(--white-color);
+
+  font-size: var(--secondary-font);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: var(--background-color);
+
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.tab:hover {
+  border-bottom-color: var(--primary-tab-selected-color);
+}
+.tab-active {
+  border-bottom-color: var(--primary-color);
+}
+
+.code-editor-work-area {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-right-color: var(--background-color);
+  width: 50%;
+  height: 100%;
+}
+
+.utilities-container {
+  margin: 0px;
+  border: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: inherit;
+  height: 100%;
+  margin-right: 1px;
+  width: 50px;
+  font-size: var(--secondary-font);
+  cursor: pointer;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: var(--secondary-background);
+  outline: none;
+  user-select: none;
+}
+
+.utilities-container:hover {
+  border-bottom-color: var(--primary-color);
+}
+.CodeMirror {
+  font-family: inherit;
+  font-size: inherit;
+}
+.blurbackground {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+iframe {
+  border: 0;
+}
+
+@media only screen and (max-width: 796px) {
+  .container-width-50 {
+    width: 100%;
+    border: 0;
+  }
+  .container-content-area-sizing {
+    flex-direction: column;
+    width: 100vw;
+    height: 150vh;
+  }
+
+  .editor-menu-bar {
+    height: 20%;
+  }
+  .showdisplay {
+    width: 40vw !important;
+  }
+  .code-editor-work-area {
+    width: 100%;
+    max-height: 100%;
+    border: 0;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  body {
+    font-size: var(--secondary-font);
+  }
+  .editor-menu-bar {
+    height: 15%;
+  }
+  .showdisplay {
+    width: 50vw !important;
+  }
+}
+@media only screen and (max-width: 351px) {
+  body {
+    font-size: var(--secondary-font);
+  }
+  .tab {
+    padding: 0;
+
+    width: 55px;
+  }
+  .showdisplay {
+    width: 70vw !important;
+  }
+}

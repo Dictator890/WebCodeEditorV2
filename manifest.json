@@ -1,0 +1,35 @@
+{
+  "name": "WebCodeEditor",
+  "short_name": "WebCodeEditor",
+  "icons": [
+    {
+      "src": "/icons/WebCodeEditor1200x1200.png",
+      "sizes": "1200x1200",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/WebCodeEditor1500x1500.png",
+      "sizes": "1500x1500",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/WebCodeEditor1000x1000.png",
+      "sizes": "1000x1000",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/WebCodeEditor800x800.png",
+      "sizes": "800x800",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/WebCodeEditor330x330.png",
+      "sizes": "330x330",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#00c9ff"
+}

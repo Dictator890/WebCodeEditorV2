@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Cairo-regular;
+  src: url("./fonts/Cairo-Regular.ttf");
+}
+@font-face {
+  font-family: ComicNeue-Light;
+  src: url("./fonts/ComicNeue-Light.ttf");
+}
+@font-face {
+  font-family: CourierPrime-Regular;
+  src: url("./fonts/CourierPrime-Regular.ttf");
+}
+@font-face {
+  font-family: Flamenco-Light;
+  src: url("./fonts/Flamenco-Light.ttf");
+}
+@font-face {
+  font-family: GloriaHallelujah-Regular;
+  src: url("./fonts/GloriaHallelujah-Regular.ttf");
+}
+@font-face {
+  font-family: LexendPeta-Regular;
+  src: url("./fonts/LexendPeta-Regular.ttf");
+}
+@font-face {
+  font-family: Nunito-Regular;
+  src: url("./fonts/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: PatrickHand-Regular;
+  src: url("./fonts/PatrickHand-Regular.ttf");
+}
+@font-face {
+  font-family: PermanentMarker-Regular;
+  src: url("./fonts/PermanentMarker-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src: url("./fonts/Roboto-Thin.ttf");
+}
